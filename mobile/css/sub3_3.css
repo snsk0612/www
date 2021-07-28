@@ -1,0 +1,27 @@
+.sub_menu{margin-top: 50px; position: relative;}
+.visual_area_box{height: 170px; overflow: hidden; background: url(../images/visual_sub3.png) center no-repeat; 
+background-size: cover;}
+.sub_menu h3{position: absolute; top: 50px; width: 100%; text-align: center; color: #fff; font-size: 22px;
+font-weight: 700;}
+
+.sub_box{overflow: hidden; width: 100%; position: absolute; bottom: 0; background: rgba(21, 66,151, .3);}
+.sub_box li{float: left; width: 33.333%;}
+.sub_box li a{display: block; padding: 10px 0; font-size: 18px;font-family:'NanumGothic';color: #fff;
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;} 
+
+#content h2{margin:50px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+
+#content .content_area h4{font-size: 24px;text-align:center;margin:0 auto ; font-weight: 600;position: relative;}
+#content .content_area .slogan{font-size: 16px;line-height: 2em;font-family: 'NanumGothic';margin:20px 5%;text-align: center;}
+
+#content .content_area .benefit_box1{margin:50px 0 100px;}
+#content .content_area .benefit_box1 li{margin: 0 auto; margin-bottom: 80px;}
+#content .content_area .benefit_box1 li img{width:80% ;display: block;margin: 0 10%;border-radius: 10px 10px 0 0;}
+#content .content_area .benefit_box1 dl{border: 1px solid #ccc;border-radius: 0 0 15px 15px;margin: 0px 10%;
+border-top: 5px solid #45befa;padding: 20px 0;}
+#content .content_area .benefit_box1 dt{font-size: 22px;font-weight:600; text-align: center;padding:20px 0}
+#content .content_area .benefit_box1 dd{font-size: 16px;text-align: center;padding: 10px 5%;line-height: 1.5em;}

@@ -1,0 +1,46 @@
+/*인재채용 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area .slogan{font-size: 24px; text-align: center;font-family: 'NanumGothic';font-weight: 400;
+margin: 50px 0;}
+#content .content_area .slogan_text{font-size: 22px;text-align: left;font-family: 'NanumGothic';margin:0 0 20px 250px;}
+#content .content_area .blue{color: #154297;font-weight: 500;}
+#content .content_area .red{color: #cf2920;font-weight: 500;margin-left: 50px;}
+#content .content_area .center_box{padding: 100px 0;}
+#content .content_area .center_box .title{font-size: 30px;font-weight: 500;color: #154297;position: absolute;
+top: 255px;left: 510px;text-align: center;font-family: 'NanumGothic';text-indent: -99999px;}
+
+#content .content_area .center_box .center_inner{background: url(../images/content2/center.png)center center no-repeat;
+overflow: hidden;width: 1200px;height: 680px; position: relative;}
+#content .content_area .center_box .center_inner p{font-size: 20px; text-align: left;position: absolute;top: 20px;left: 55px;
+line-height: 1.5em;}
+#content .content_area .center_box .center_inner p span{color: #154297;}
+#content .content_area .center_box .center_inner .right_top{position: absolute;top: 50px;right: 115px;}
+#content .content_area .center_box .center_inner .left_bottom{position: absolute;top:420px;left: 85px;}
+#content .content_area .center_box .center_inner .right_bottom{position: absolute;top: 420px;right: 180px;}
+#content .content_area .center_box .center_inner dt{font-size: 24px;font-family: 'NanumGothic';color: #45befa;
+margin:0 0 20px 100px; font-weight: 500;}
+#content .content_area .center_box .center_inner dd{margin-bottom: 10px;}
+
+#content .content_area .company{width: 1200px;margin: 0 auto;overflow: hidden;position: relative;margin-bottom: 100px;}
+#content .content_area .company img{float: left;width: 500px;height: 300px;margin-left: 50px;box-shadow:5px 5px 7px 3px #ccc;}
+#content .content_area .company dl{float: right;width: 50%;position: relative;margin-top: -60;}
+#content .content_area .company dt{font-size: 30px; padding: 70px 0 20px 0;text-align: right;color:#154297;
+text-align: center;font-family: 'NanumGothic';border-bottom: 1px solid #ccc;}
+#content .content_area .company dd{font-size: 20px;font-family: 'NanumGothic';text-align: justify; padding-top: 20px;line-height: 2em;}
+
+#content .content_area .college{width: 1200px;margin: 0 auto;overflow: hidden;position: relative;margin-bottom: 100px;}
+#content .content_area .college img{float: right;width: 500px;height: 300px;margin-left: 50px;box-shadow:-5px 5px 7px 3px #ccc;}
+#content .content_area .college dl{float: left;width: 50%;position: relative;margin-left:50px;}
+#content .content_area .college dt{font-size: 30px; padding: 70px 0 20px 0;text-align: right;color:#154297;
+text-align: center;font-family: 'NanumGothic';border-bottom: 1px solid #ccc;}
+#content .content_area .college dd{font-size: 20px;font-family: 'NanumGothic';text-align: justify;padding-top: 20px;line-height: 2em; }
+
+#content .content_area .mentoring{width: 1200px;margin: 0 auto;overflow: hidden;position: relative;margin-bottom: 100px;}
+#content .content_area .mentoring img{float: left;width: 500px;height: 300px;margin-left: 50px; box-shadow:5px 5px 7px 3px #ccc;}
+
+#content .content_area .mentoring dl{float: right;width: 50%;position: relative;}
+#content .content_area .mentoring dt{font-size: 30px; padding: 70px 0 20px 0;text-align: right;color:#154297;
+text-align: center;font-family: 'NanumGothic';border-bottom: 1px solid #ccc;}
+#content .content_area .mentoring dd{font-size: 20px;font-family: 'NanumGothic';text-align: justify;line-height: 2em; padding-top: 20px;}

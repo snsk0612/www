@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{background: #f9f9f9;}
+.header{border-bottom: 1px solid #ccc; background: #fff;}
+.header .header_inner{margin:0 auto;box-sizing: border-box;}
+.header .logo{margin: 0 540px;padding: 30px 0;}
+.header .logo h1 a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url(../../common/images/logo.png)
+}
+#content{
+    width: 600px;
+    margin: 0 auto;
+    background:#fff ;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border: 2px solid #154297;
+    padding:50px;
+    border-radius: 15px;
+    font-family: 'Noto+ erif',sans-serif;
+} 
+#content h2 {
+    font-size: 50px;
+    color: #333;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 60px;
+}    
+.id_pw_input{width: 100%}
+
+.id_pw_input ul li{margin-bottom: 20px}
+.id_pw_input ul li input{width: 590px;border: none; background: #eaebef; padding: 5px; height: 40px; font-size: 16px}
+
+.find ul{
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto;    
+}
+.find li{
+    text-align: center;
+    margin: 20px auto;
+    overflow: hidden;
+    color: #666;
+}
+.find li:nth-of-type(1){
+    float: left;
+}
+.find li:nth-of-type(2){
+    float: right;
+}
+.find li span{
+    margin-left: 15px;
+}
+.find li i{
+    margin-right: 5px;
+}
+.login_button{margin: 50px 0; overflow: hidden;}
+.login_button input{
+    cursor: pointer; 
+    background: #004b84; 
+    color: #fff; 
+    padding: 5px; 
+    height: 50px; 
+    font-size: 16px; 
+    border: none; 
+    width: 290px; 
+    margin-right: 20px; 
+    float: left;}
+.login_button input:hover{color: #004b84; background: #fff; border: #004b84 solid 1px}
+
+.login_button a{
+    display: inline-block; 
+    background: #bbb; 
+    color: #fff; 
+    padding: 14.5px 5px; 
+    font-size: 16px; 
+    border: none; 
+    width: 280px; 
+    font-size: 16px;
+    text-align: center;
+    float: right;
+}
+
+.join_button{overflow: hidden; position: relative;}
+
+.join_button span::before{
+    width: 600px; 
+    height: 1px; 
+    content: ''; 
+    background: #ccc; 
+    position: absolute; 
+    top: 0; left: 0
+}
+.join_button span{
+    color: #666; 
+    padding-top: 30px; 
+    display: block; 
+    font-size: 25px; 
+    font-weight: 700; 
+    margin-bottom: 10px
+}
+.join_button p{font-weight: 400; color: #666; margin-bottom: 40px}
+
+
+.join_button a{
+    position: absolute; 
+    right: 0; top: 70px; 
+    display: block;
+    background: #004b84; 
+    color: #fff; 
+    padding: 14px 5px; 
+    font-size: 16px; 
+    border: none; 
+    width: 200px; 
+    float: right; 
+    text-align: center
+}
+.join_button a:hover{
+    color: #004b84; 
+    background: #fff; 
+    width: 200px; 
+    border: #004b84 solid 1px; 
+    padding: 13px 5px;
+}
+

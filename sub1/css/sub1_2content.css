@@ -1,0 +1,109 @@
+/*경영이념 내용 영역*/
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .title_area .title_menubox{width: 1200px;margin:0 auto ;}
+#content .title_area .title_menubox ul{overflow: hidden;margin-top:120px;}
+#content .title_area .title_menubox li{float: left;width:50%;}
+#content .title_area .title_menubox li i{font-size: 3px;color: #ccc;position: absolute;top: 29px;left: 295px;
+transition: all .15s ease-in;}
+#content .title_area .title_menubox li:hover a i{color: #cf2920;}
+#content .title_area .title_menubox li a{display: block;color: #999;font-size: 0.889em;text-align: center;
+padding-bottom: 20px;font-weight: 600;position: relative;transition: all .5s;}
+#content .title_area .title_menubox li a::after{display: block; content: ''; width: 12px;height: 12px;border-radius: 6px;
+color: #ccc;position: absolute;top: 10px;left: 50%; transition: all .5s;}
+#content .title_area .title_menubox li a:hover{content: '';display: block;color: #666;}
+
+#content .content_area{width: 1200px;margin: 0 auto;}
+#content .content_area .mission_vision h4{font-size: 2.333em;text-align: center;margin-top:100px ;font-weight: 500;
+background:url(../images/content1/dot.png)590px  no-repeat; padding-bottom: 170px;}
+#content .content_area .mission_vision p{font-size: 1.222em; font-family:'NanumMyeongjo'; text-align: center;margin-top: -50px;
+line-height: 1.5em; margin-bottom: 100px;}
+#content .content_area .mission_vision p span{color: #cf2920;}
+
+#content .content_area .mission{width:1200px;margin: 0 auto;position: relative;}
+#content .content_area .mission h5{font-size: 1.944em;font-family:'montserrat' ;font-weight:400;margin-left:100px;
+padding-top: 10px;}
+#content .content_area .mission h5::after{content: '';width: 5px;height: 40px;background: #cf2920;
+position: absolute;top: 10px;left: 295px;}
+#content .content_area .mission_vision .mission p{font-size:1.111em ;font-family:'NanumGothic';
+text-align: justify;margin-left:350px ;line-height: 1.5em;margin-top: -65px;}
+
+#content .content_area .mission_vision .mission ul{overflow: hidden;margin-bottom: 100px;}
+#content .content_area .mission_vision .mission ul::after{content: '';background: url(../images/content2/blue.png)no-repeat;
+width: 303px;height:303px;position: absolute;top: 160px;right: 80px;z-index: -1;}
+#content .content_area .mission_vision .mission li{float: left;margin-right: 80px;}
+#content .content_area .mission_vision .mission .ins{display: block;margin: 30px 170px 70px;}
+#content .content_area .mission_vision .mission .coo{display: block;margin: 30px 0px 70px;}
+#content .content_area .mission_vision .mission .rel{display: block;margin: 33px 0 70px 155px;}
+#content .mission_vision .mission .text1{font-size:1.222em ;font-family:'NanumGothic';font-weight:600 ;text-align: center;
+color: #154297; margin-left:165px ;}
+#content .mission_vision .mission .text2{font-size:1.222em ;font-family:'NanumGothic';font-weight:600 ;text-align: center;
+color: #154297; margin-left:-10px ;}
+#content .mission_vision .mission .text3{font-size:1.222em ;font-family:'NanumGothic';font-weight:600 ;text-align: center;
+color: #154297; margin-left:150px ;}
+#content .mission_vision .mission span::after{content: '';width: 1200px;border-bottom:5px dotted #fff ;
+position: absolute;top: 365px;left: 0;}
+
+#content .content_area .mission_vision .mission .last::before{content: '';background: url(../images/content2/blue.png)no-repeat;
+width: 303px;height:303px;position: absolute;top: 155px;left: 80px;z-index:-1;}
+#content .content_area .mission_vision .mission .last::after{content: '';background: url(../images/content2/blue.png)no-repeat;
+width: 303px;height:303px;position: absolute;top: 155px;left:450px;z-index:-1;}
+
+
+
+#content .content_area .mission_vision .vision{width:1200px;margin: 0 auto;position: relative;}
+#content .content_area .vision h5{font-size: 1.944em;font-family:'montserrat' ;font-weight:400;margin-right:100px;
+padding-top:100px;text-align: right;}
+#content .content_area .vision h5::after{content: '';width: 5px;height: 40px;background: #cf2920;
+position: absolute;top:100px;right: 265px;}
+#content .content_area .mission_vision .vision p{font-size:1.389em ;font-family:'NanumGothic';
+text-align:right;line-height: 2em;margin:-75px 315px 50px ;}
+#content .content_area .mission_vision .vision p span{font-size:1.667em ;font-family:'NanumGothic';
+text-align:right;color: #154297;}
+
+#content .content_area .mission_vision .vision ul{overflow: hidden;margin-bottom: 100px;}
+#content .content_area .mission_vision .vision ul::after{content: '';background: url(../images/content2/red.png)no-repeat;
+width: 303px;height:303px;position: absolute;top: 250px;right: 80px;z-index: -1;}
+#content .content_area .mission_vision .vision li{float: left;margin-right: 80px;}
+#content .content_area .mission_vision .vision .team{display: block;margin: 70px 170px 73px;}
+#content .content_area .mission_vision .vision .grow{display: block;margin: 74px -5px 70px;}
+#content .content_area .mission_vision .vision .in{display: block;margin: -215px 0 65px 905px;}
+#content .mission_vision .vision .text4{font-size:1em ;font-family:'NanumGothic';font-weight:800 ;text-align: center;
+color: #fff; margin-left:130px ;}
+#content .mission_vision .vision .text5{font-size:1em ;font-family:'NanumGothic';font-weight:800 ;text-align: center;
+color: #fff; margin-left:-10px ;}
+#content .mission_vision .vision .text6{font-size:1em ;font-family:'NanumGothic';font-weight:800 ;text-align: center;
+color: #fff; margin-left:875px ;}
+#content .mission_vision .vision span::after{content: '';width: 1200px;border-bottom:5px dotted #fff ;
+position: absolute;top: 465px;left: 0;}
+#content .content_area .mission_vision .vision .last::before{content: '';background: url(../images/content2/red.png)no-repeat;
+width: 303px;height:303px;position: absolute;top: 250px;left: 80px;z-index:-1;}
+#content .content_area .mission_vision .vision .last::after{content: '';background: url(../images/content2/red.png)no-repeat;
+width: 303px;height:303px;position: absolute;top: 250px;left:450px;z-index:-1;}
+
+#content .content_area .safety h4{font-size: 2.333em;text-align: center;margin-top:200px ;font-weight: 500;
+background:url(../images/content1/dot.png)590px  no-repeat; padding-bottom: 170px;}
+#content .content_area .safety .slogan{font-size: 1.222em;font-family: 'NanumGothic';text-align: center;
+line-height: 1.5em;margin-bottom: 50px;}
+#content .content_area .safety .slogan span{color: #cf2920;}
+#content .content_area .safety .text{font-size: 1.111em;font-family: 'NanumGothic';text-align: center;
+margin-top: 50px; line-height: 1.5em;margin-bottom: 50px;}
+
+#content .content_area .safety ul{font-family: 'NanumGothic';margin: 100px 50px 200px;}
+#content .content_area .safety ul li dl{padding-top:120px;position: relative;margin-bottom: 100px;text-align: center;}
+#content .content_area .safety ul li dl dt{display: block; font-size: 1.222em; font-family: 'NanumGothic'; font-weight: 500;
+text-align: center; color: #fff;background: rgba(207, 41, 32, .5); position: absolute; top:0;left:30px ;
+width: 220px;height: 220px;border-radius: 110px;}
+#content .content_area .safety ul li dl dt span{display: block; margin-top: 90px;line-height: 1.5em;}
+#content .content_area .safety ul li:nth-of-type(2) dl dt{background: rgba(21, 66, 151, .5);}
+#content .content_area .safety ul li:nth-of-type(4) dl dt{background: rgba(21, 66, 151, .5);}
+#content .content_area .safety ul li dl dt::before{content: '';display: block;width: 200px;height: 200px;
+border-radius: 100px; border: 2px solid #fff; position: absolute;top: 8px; left: 8px; }
+#content .content_area .safety ul li dl dd{font-size: 1.222em;font-family: 'NanumGothic';text-align: center;
+width: 650px;height:100px; background: rgba(207, 41, 32, .5);border-radius: 20px 0 20px 0;
+margin: -80px 0 0 390px;padding-top:45px;line-height: 1.5em;color: #fff;font-weight: 500;}
+#content .content_area .safety ul li dl dd::after{content: ''; width: 630px;height: 125px; border: 1px solid #fff;
+border-radius:20px 0 20px 0;display: block;position: absolute;top: 48px;left: 398px;}
+#content .content_area .safety ul li dl dd::before{content: ''; width: 90px;border-bottom:15px dotted #999;position: absolute;
+top:103px;left: 270px;}
+#content .content_area .safety ul li:nth-of-type(1) dl dd{background:rgba(21, 66, 151, .5) ;}
+#content .content_area .safety ul li:nth-of-type(3) dl dd{background:rgba(21, 66, 151, .5) ;}

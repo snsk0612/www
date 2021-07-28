@@ -1,0 +1,137 @@
+/*여객사업 내용 영역*/
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #fff;}
+#content .title_area .title_menubox{width: 1200px;margin:0 auto ;}
+#content .title_area .title_menubox ul{overflow: hidden;margin-top:120px;}
+#content .title_area .title_menubox ul li{float: left;width:33% ;}
+#content .title_area .title_menubox ul li i{font-size: 3px;color: #ccc;position: absolute;top: 29px;left: 195px;
+transition: all .15s ease-in;}
+#content .title_area .title_menubox ul li:hover a i{color: #cf2920;}
+#content .title_area .title_menubox ul li a{display: block;color: #999;font-size: 0.889em;text-align: center;
+padding-bottom: 20px;font-weight: 600;position: relative;transition: all .5s;}
+#content .title_area .title_menubox ul li a::after{display: block; content: ''; width: 12px;height: 12px;border-radius: 6px;
+color: #ccc;position: absolute;top: 10px;left: 50%; transition: all .5s;}
+#content .title_area .title_menubox ul li a:hover{content: '';display: block;color: #666;}
+
+
+#content .content_area .bussiness{background: #f9f9f9;}
+#content .content_area .bussiness .buss_inner{width: 1200px;margin: 0 auto;position: relative;}
+#content .content_area .bussiness img{margin-bottom: 150px;}
+#content .content_area .bussiness .text_box{background: #fff;width: 80%;position: absolute;top: 600px;left:110px;
+padding: 80px 10px 50px 10px;}
+#content .content_area .bussiness h4{font-size: 2.333em;text-align: center;margin-bottom:150px; font-weight: 600;padding-top: 150px;}
+#content .content_area .bussiness h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 230px;left: 600px;}
+
+#content .content_area .bussiness .text1{font-size: 1.667em; font-family: 'NanumGothic'; text-align:center;margin-top: -50px;
+line-height: 1.5em; margin-bottom: 30px;font-weight: 500;}
+#content .content_area .bussiness .text2{padding: 0 50px;text-align: justify;line-height: 2em;}
+#content .content_area .bussiness .text1 .air{color: #154297;}
+#content .content_area .bussiness .last_box{padding-bottom: 150px;}
+#content .content_area .bussiness .last_box .last{text-align: left;font-size: 18px;font-family:'montserrato' 'NanumGothic';font-weight: 500;
+color: #666;margin-bottom: 20px;position: relative;margin-left: 20px;}
+#content .content_area .bussiness .last_box .last::after{content: '';display: block;width:5px;height: 5px;background: #cf2920;
+position: absolute;top: 10px;left: -15px;}
+#content .content_area .bussiness .last_box .last_sp{color: #154297;margin-right: 20px;font-size: 20px;}
+
+#content .content_area .service{width: 1200px;margin: 0 auto;position: relative;}
+#content .content_area .service h4{font-size: 2.333em;text-align: center;margin:150px 0 150px ; font-weight: 600;}
+#content .content_area .service h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 90px;left: 600px;}
+#content .content_area .service .se_text{font-size: 24px; font-family: 'NanumGothic'; text-align:center;
+line-height: 2em; margin:50px 0 100px 0;font-weight: 400;}
+#content .content_area .service .se_sp{color: #154297;font-size: 24px;font-weight: 500;}
+
+#content .content_area .service ul{overflow: hidden;}
+#content .content_area .service li{border: 1px solid #ccc;width: 500px;height: 400px; float: left;margin: 25px;padding: 20px;
+position: relative;transition: all .5s ease;}
+#content .content_area .service li:nth-child(1)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/cargo.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(1)::after{background: url(../images/content1/cargo_h.png)no-repeat;}
+
+#content .content_area .service li:nth-child(2)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/delivery-box.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(2)::after{background: url(../images/content1/delivery-box_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(3)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/tow-truck.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(3)::after{background: url(../images/content1/tow-truck_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(4)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/food-cart.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(4)::after{background: url(../images/content1/food-cart_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(5)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/cleaning-spray.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(5)::after{background: url(../images/content1/cleaning-spray_h.png)no-repeat;}
+
+#content .content_area .service li:nth-child(6)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/snowflake.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(6)::after{background: url(../images/content1/snowflake_h.png)no-repeat;}
+
+    
+#content .content_area .service li:nth-child(7)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/runway.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(7)::after{background: url(../images/content1/runway_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(8)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/ramp.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(8)::after{background: url(../images/content1/ramp_h.png)no-repeat;}
+
+    
+#content .content_area .service li:nth-child(9)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/toilets.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(9)::after{background: url(../images/content1/toilets_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(10)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/air-cooler.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(10)::after{background: url(../images/content1/air-cooler_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(11)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/check-in.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(11)::after{background: url(../images/content1/check-in_h.png)no-repeat;}
+
+
+#content .content_area .service li:nth-child(12)::after{content: '';display: block;position: absolute;width: 128px;
+height: 128px;left: 50%;top: 40px;margin-left: -65px;transition: all .5s ease;background: url(../images/content1/hand.png)no-repeat;}
+#content .content_area .service li:hover:nth-child(12)::after{background: url(../images/content1/hand_h.png)no-repeat;}
+
+#content .content_area .service dl{padding: 40px 40px 40px 40px;}   
+#content .content_area .service dt{font-size: 24px;font-weight: 500;margin:150px 0 20px ;border-bottom: 1px dashed #ccc;
+padding-bottom: 20px;text-align: center;}
+#content .content_area .service dd{font-size: 20px; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+padding-bottom: 20px;}
+
+
+#content .content_area .aq{background: #f9f9f9;}
+#content .content_area .aq .aq_inner{width: 1200px; margin: 0 auto;position: relative;}
+#content .content_area .aq h4{font-size: 2.333em;text-align: center;padding:150px 0 ; font-weight: 600;margin-top: 150px;}
+#content .content_area .aq h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 240px;left: 600px;}
+#content .content_area .aq .aq_text1{font-size: 24px; font-family: 'NanumGothic'; text-align:center;margin-bottom:20px;
+font-weight:500;color: #154297;}
+#content .content_area .aq .aq_text2{font-size: 24px; font-family: 'NanumGothic'; text-align:center;
+line-height: 2em; margin-bottom:100px;font-weight: 400;}
+
+#content .content_area .aq .safety{position: relative;overflow: hidden;margin-bottom: 100px;}
+#content .content_area .aq .safety::after{content: '';display: block;background: url(../images/content1/safety.jpg)no-repeat;
+top: 0px;left: 0;width: 550px;height: 350px;margin-top: 50px;}
+#content .content_area .aq .safety dl{width: 600px;float: right;margin-top: -150px;}
+#content .content_area .aq .safety dt{font-size: 24px;font-weight: 500;margin:150px 0 20px ;border-bottom: 1px dashed #ccc;
+padding-bottom: 30px;text-align: center;}
+#content .content_area .aq .safety dd{font-size: 20px; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+padding-bottom: 10px;}
+
+#content .content_area .aq .training{padding-bottom: 200px;position: relative;overflow: hidden;}
+#content .content_area .aq .training::after{content: '';display: block;background: url(../images/content1/training.jpg)no-repeat;
+top: 0px;left: 0;width: 550px;height: 350px;margin-top: 50px;margin-left: 650px;}
+#content .content_area .aq .training dl{width: 600px;margin-top: -150px;float: left;}
+#content .content_area .aq .training dt{font-size: 24px;font-weight: 500;margin:150px 0 20px ;border-bottom: 1px dashed #ccc;
+padding-bottom: 30px;text-align: center;}
+#content .content_area .aq .training dd{font-size: 20px; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+padding-bottom: 20px;}

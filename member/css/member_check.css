@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{background: #f9f9f9;}
+.header{border-bottom: 1px solid #ccc; background: #fff;}
+.header .header_inner{margin:0 auto;box-sizing: border-box;}
+.header .logo{margin: 0 540px;padding: 30px 0;}
+.header .logo h1 a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url(../images/logo.png)}
+
+#content{width: 820px; margin: 0 auto;background:#fff;font-family: 'Noto+ erif',sans-serif;}  
+
+
+
+    .member_tab{padding: 30px 0;border-top: 1px solid #333}
+    .member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+    .member_tab a.on{color: #000;border-bottom: 2px solid #000;font-weight: bold}
+    .member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #000;font-weight: bold}
+
+    .join{text-align: left;border: 2px solid #154297;margin:50px 0;padding:50px;border-radius: 15px;}
+    .join h4{font-size: 16px;margin-top: 30px;position: relative;margin-left: 20px;}
+    .join h4::before{content: '';display: block;width: 10px;height: 10px;background: #45befa;
+    position: absolute;top: 4px; left:-18px; border-radius: 3px;}
+    .join .policy{padding: 15px;overflow-y: scroll;height: 120px;margin: 15px 0;border: 1px solid #154297;
+    line-height: 1.5em;font-size: 16px;}
+    .join .button{text-align: center;margin-top: 30px}
+    .join .button .ok,.join .button button,.allcheck{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #2179c4;color: #fff;font-size: 14px;cursor: pointer}
+    .join .button .cancel{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer}

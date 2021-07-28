@@ -1,0 +1,22 @@
+/*오시는길 내용영역*/
+
+#content h2{margin:100px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+
+#content .text_box .text1{font-size: 20px; font-family: 'NanumGothic'; text-align:center;padding-top:20px ;
+line-height: 1.5em; margin-bottom: 30px;font-weight: 500;}
+#content .text_box .text1 .air{color: #154297;}
+#content .text_box img{display: block;margin: 50px auto;border-radius: 0 50px 0 0;box-shadow: 3px 3px 5px 3px #ccc;}
+
+
+#content .text_box li{font-size: 18px;line-height: 2em; margin:30px 0;text-align: center;margin: 0 5%;}
+#content #map{width:90%;height: 500px; margin:50px 5%;}
+
+#content .way table{width:90%; margin:50px 5%;line-height:2em;}
+#content .way table thead{background:#eee;text-align:center;}
+#content .way table th{border-top:1px solid #ccc;border-bottom:1px solid #ccc; 
+padding:10px 5px;text-align:left;}
+#content .way table .line{border-bottom:1px solid #ccc;}
+#content .way table i{margin:0 10px; font-size:1.5em; }

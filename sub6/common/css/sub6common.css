@@ -1,0 +1,27 @@
+/* sub6 공통 영역*/
+
+.visual{margin-top:198px;width: 2000px; position: relative;left: 50%;margin-left: -1000px;}
+
+.sub_menu{width:1200px;position: absolute;left:50%;margin-left:-600px;top:90px ;}
+.sub_menu h3{position: absolute;left: 50%;margin-left: -85px;top:180px; font-size: 2.5em;font-family:'NanumGothic';
+font-weight: 400;color: #fff;}
+.sub_menu p{position: absolute ;left:50%;margin-left:-215px ;top:250px;line-height: 1.5em;text-align: center;
+font-size: 1em;color: #fff;}
+
+.sub_menu ul{overflow: hidden;width:1200px;position: absolute;left: 50%;margin-left: -600px;top: 395px;
+background: rgba(21, 66,151, .3);}
+.sub_menu li{float: left;}
+.sub_menu li a{display: block;width:400px;font-size: 1.111em;color: #fff;  padding: 20px 0;font-family:'NanumGothic';
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+    
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;}
+.sub_menu li .current:hover a{background:#fff;}
+.sub_menu li a:hover{background: rgba(255,255,255,.5);color: #154297;font-family: 'NanumGothic';
+transition: all .5s;font-weight: 600;}
+
+#content{margin: 1200px; margin: 0 auto;}
+#content .title_area .line_map{position: absolute;top:100px;left:50%;margin-left:-120px;}
+#content .title_area h2{font-family: 'NanumGothic'; font-size: 3.333em;font-weight:600;padding-top:150px;
+text-align: center;position: relative;margin-bottom: 100px;}
+#content .title_area h2::after{content: ''; width: 50px;border-bottom:7px solid #cf2920;margin-top:110px;display: block;
+position: absolute;top: 135px;left:50%;margin-left: -20px;}

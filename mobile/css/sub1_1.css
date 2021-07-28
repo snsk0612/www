@@ -1,0 +1,23 @@
+.sub_menu{margin-top: 50px; position: relative;} 
+.visual_area_box{height: 170px; overflow: hidden; background: url(../images/visual_sub1.png) center no-repeat; 
+background-size: cover;}
+.sub_menu h3{position: absolute; top: 50px; width: 100%; text-align: center; color: #fff; font-size: 22px;font-weight: 700;}
+
+.sub_box{overflow: hidden; width: 100%; position: absolute; bottom: 0; background: rgba(21, 66,151, .3);}
+.sub_box li{float: left; width: 50%;}
+.sub_box li a{display: block; padding: 10px 0; font-size: 18px;font-family:'NanumGothic';color: #fff;
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;}
+
+#content .company h2{margin:50px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content .company h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+#content .company p{font-size: 18px; font-family:'Nanum Gothic', sans-serif; text-align:justify;
+line-height: 1.5em; margin:20px;font-weight: 400;}
+#content .company img{width: 100%;margin-bottom:20px ;border-radius: 10px;}
+#content .company .text1{font-size: 22px; font-family:'NanumMyeongjo'; text-align: center;margin-top: 10px;
+line-height: 1.5em; margin-bottom: 50px;font-weight: 500;}
+#content .company .air{color: #154297;}
+#content .company .text1 .han{color: #45befa;}
+#content .company .last{margin-bottom: 80px;}

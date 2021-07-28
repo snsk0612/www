@@ -1,0 +1,37 @@
+.sub_menu{margin-top: 50px; position: relative;}
+.visual_area_box{height: 170px; overflow: hidden; background: url(../images/visual_sub3.png) center no-repeat; 
+background-size: cover;}
+.sub_menu h3{position: absolute; top: 50px; width: 100%; text-align: center; color: #fff; font-size: 22px;
+font-weight: 700;}
+
+.sub_box{overflow: hidden; width: 100%; position: absolute; bottom: 0; background: rgba(21, 66,151, .3);}
+.sub_box li{float: left; width: 33.333%;}
+.sub_box li a{display: block; padding: 10px 0; font-size: 18px;font-family:'NanumGothic';color: #fff;
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;} 
+
+#content h2{margin:50px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+
+#content .job h4{font-size: 22px;text-align:center; font-weight: 600; position: relative;}
+#content .job .jop_slogan{font-size: 20px;line-height: 2em;font-family: 'NanumGothic';margin:20px 5%;text-align: center;
+margin-bottom: 50px;}
+
+#content .job ul{background: rgba(69, 190, 250, .5);margin: 0 auto;padding: 20px 20px;}
+#content .job li{padding: 50px 0;background: #fff;margin-bottom: 20px;}
+#content .job li:nth-of-type(3){margin-bottom: 0;}
+
+#content .job dt{font-size: 20px;font-family: 'NanumGothic';text-align: center;margin-bottom: 50px;}
+#content .job dd{font-size: 18px;line-height: 2em;font-family: 'NanumGothic';margin:20px 5%;text-align:center;}
+
+#content .evaluation h4{font-size: 22px;text-align:center; font-weight: 600; position: relative;margin: 50px 0;}
+#content .evaluation .slogan{font-size: 18px;line-height: 2em;font-family: 'NanumGothic';margin:20px 5%;
+text-align: justify;}
+#content .evaluation ul{margin:50px 0 100px;}
+#content .evaluation li{width: 200px;height: 200px;border: 20px solid #8c87fa;border-radius: 50%;margin: 0 auto;
+padding: 10px 10px;margin-top: 20px;}
+#content .evaluation li img{display: block;margin: 0 auto;margin-bottom: 30px;    padding-top: 25px;}
+#content .evaluation dt{font-size: 20px;text-align: center; }
+#content .evaluation dd{font-size: 18px;text-align: center;padding: 5px ;}

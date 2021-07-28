@@ -1,0 +1,81 @@
+/*화물사업 내용 영역*/
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #fff;}
+#content .title_area .title_menubox{width: 1200px;margin:0 auto ;}
+#content .title_area .title_menubox ul{overflow: hidden;margin-top:120px;}
+#content .title_area .title_menubox li{float: left;width:33%;}
+#content .title_area .title_menubox li i{font-size: 3px;color: #ccc;position: absolute;top: 29px;left: 195px;
+transition: all .15s ease-in;}
+#content .title_area .title_menubox li:hover a i{color: #cf2920;}
+#content .title_area .title_menubox li a{display: block;color: #999;font-size: 0.889em;text-align: center;
+padding-bottom: 20px;font-weight: 600;position: relative;transition: all .5s;}
+#content .title_area .title_menubox li a::after{display: block; content: ''; width: 12px;height: 12px;border-radius: 6px;
+color: #ccc;position: absolute;top: 10px;left: 50%; transition: all .5s;}
+#content .title_area .title_menubox li a:hover{content: '';display: block;color: #666;}
+
+#content .content_area .bussiness{background: #f9f9f9;}
+#content .content_area .bussiness .buss_inner{width: 1200px;margin: 0 auto;position: relative;}
+#content .content_area .bussiness img{margin-bottom: 250px;}
+#content .content_area .bussiness .text_box{background: #fff;width: 80%;position: absolute;top: 600px;left:110px;
+padding: 80px 10px 50px 10px;}
+#content .content_area .bussiness h4{font-size: 2.333em;text-align: center;margin-bottom:150px; font-weight: 600;
+padding-top: 150px;position: relative;}
+#content .content_area .bussiness h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 230px;left: 600px;}
+    
+
+#content .content_area .bussiness .text1{font-size: 1.667em; font-family: 'NanumGothic'; text-align:center;margin-top: -50px;
+line-height: 1.5em; margin-bottom: 30px;font-weight: 500;}
+#content .content_area .bussiness .text2{padding: 0 50px;text-align: justify;line-height: 2em;}
+#content .content_area .bussiness .text1 .air{color: #154297;}
+
+#content .content_area .service{width: 1200px;margin: 0 auto;position: relative;}
+#content .content_area .service h4{font-size: 2.333em;text-align: center;margin:150px 0 150px ; font-weight: 600;}
+#content .content_area .service h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 90px;left: 600px;}
+#content .content_area .service .se_text{font-size: 24px; font-family: 'NanumGothic'; text-align:center;
+line-height: 2em; margin:50px 0 100px 0;font-weight: 400;}
+#content .content_area .service .se_sp{color: #154297;font-size: 24px;font-weight: 500;}
+#content .content_area .service ul{overflow: hidden;}
+#content .content_area .service li{position: relative;}
+#content .content_area .service img{margin-left: 200px; margin-bottom: 50px;}
+#content .content_area .service h5{font-size: 40px; font-family: 'montserrato'; margin:30px; padding: 25px 100px;
+background: #fff;position: absolute;top: 0;left: 0;}
+#content .content_area .service li:nth-of-type(1) h5{top: 165px;left: 0px;box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .2);}
+#content .content_area .service li:nth-of-type(2) h5{top: 633px;left: 0px;box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .2);}
+#content .content_area .service li:nth-of-type(3) h5{top: 582px;left: 0px;box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .2);}
+
+#content .content_area .service dl{border: 1px solid #ccc;width: 500px;height: 200px; float: left;margin: 25px;
+padding: 20px;margin-bottom: 150px; position: relative;transition: all .5s ease;}
+#content .content_area .service li:nth-last-of-type(1) dl{height: 300px; margin-bottom: 50px;}
+#content .content_area .service dt{font-size: 24px;font-weight: 500;margin:20px 0 20px ;border-bottom: 1px dashed #ccc;
+padding-bottom: 20px;text-align: center;line-height: 1.5em;}
+#content .content_area .service dd{font-size: 20px; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+padding:0 30px 20px 30px;}
+
+
+
+#content .content_area .aq{background: #f9f9f9;}
+#content .content_area .aq .aq_inner{width: 1200px; margin: 0 auto;position: relative;}
+#content .content_area .aq h4{font-size: 2.333em;text-align: center;padding:150px 0 ; font-weight: 600;margin-top: 150px;}
+#content .content_area .aq h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 240px;left: 600px;}
+#content .content_area .aq p{font-size: 24px; font-family: 'NanumGothic'; text-align:center;
+line-height: 2em; margin-bottom:100px;font-weight: 400;}
+
+#content .content_area .aq .edu{position: relative;overflow: hidden;margin-bottom: 100px;}
+#content .content_area .aq .edu::after{content: '';display: block;background: url(../images/content2/edu.jpg)no-repeat;
+top: 0px;left: 0;width: 550px;height: 350px;margin-top: 50px;}
+#content .content_area .aq .edu dl{width: 600px;float: right;margin-top: -150px;}
+#content .content_area .aq .edu dt{font-size: 24px;font-weight: 500;margin:150px 0 20px ;border-bottom: 1px dashed #ccc;
+padding-bottom: 30px;text-align: center;}
+#content .content_area .aq .edu dd{font-size: 20px; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+padding-bottom: 10px;}
+
+#content .content_area .aq .ser{padding-bottom: 200px;position: relative;overflow: hidden;}
+#content .content_area .aq .ser::after{content: '';display: block;background: url(../images/content2/edu1.jpg)no-repeat;
+top: 0px;left: 0;width: 550px;height: 350px;margin-top: 50px;margin-left: 650px;}
+#content .content_area .aq .ser dl{width: 600px;margin-top: -150px;float: left;}
+#content .content_area .aq .ser dt{font-size: 24px;font-weight: 500;margin:150px 0 20px ;border-bottom: 1px dashed #ccc;
+padding-bottom: 30px;text-align: center;}
+#content .content_area .aq .ser dd{font-size: 20px; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+padding-bottom: 20px;}

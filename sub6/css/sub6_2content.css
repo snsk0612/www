@@ -1,0 +1,6 @@
+/*공지사항 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .content_area{width: 1200px; margin: 0 auto;}
+
+

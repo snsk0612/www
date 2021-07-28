@@ -1,0 +1,93 @@
+<div id="skipNav">
+   <a href="#content">본문 바로가기</a>
+   <a href="#gnb">글로벌 네비게이션 바로가기</a>
+</div>
+<header id="headerArea">
+   <div class="header_inner">
+       <div class="header_menu">
+         <ul>
+            <?
+            if(!$userid) //세션변수가 등록되지 않았다면
+            {
+            ?>
+
+
+
+            <li class="last"><a href="../member/member_check.html">회원가입</a></li>
+            <li><a href="../login/login_form.ph">로그인</a></li>
+
+            <?
+            }
+            else   //세변변수가 등록되어 있다면
+            {
+            ?>
+
+            <li class="last"><a href="../member/member_form_modify.php">정보수정</a></li>
+            <li><a href="../login/logout.php">로그아웃</a></li>
+
+          <?
+            }
+          ?>      
+         </ul>    
+       </div>
+       <h1>
+           <a href="../index.html">한국공항로고</a>
+       </h1>
+   <nav id="gnb">
+       <h2 class="hidden">글로벌네비게이션영역</h2>
+            <ul class="dropdownmenu">
+                <li class="m1 menu">
+                    <h3><a class="depth1" href="../sub1/sub1_1.html">회사소개</a></h3>
+                        <ul>
+                            <li><a href="../sub1/sub1_1.html">기업개요</a></li>
+                            <li><a href="../sub1/sub1_2.html">경영이념</a></li>
+                            <li><a href="../sub1/sub1_3.html">네트워크</a></li>
+                            <li><a href="../sub1/sub1_4.html">오시는길</a></li>
+                        </ul>
+                </li>
+                <li class="m2 menu">
+                    <h3><a class="depth1" href="../sub2/sub2_1.html">사업소개</a></h3>
+                        <ul>
+                            <li><a href="../sub2/sub2_1.html">여객사업</a></li>
+                            <li><a href="../sub2/sub2_2.html">화물사업</a></li>
+                            <li><a href="../sub2/sub2_3.html">급유사업</a></li>
+                            <li><a href="../sub2/sub2_4.html">정비&렌탈사업</a></li>
+                        </ul>
+                </li>
+                <li class="m3 menu">
+                    <h3><a class="depth1" href="../sub3/sub3_1.html">투자정보</a></h3>  
+                        <ul>
+                            <li><a href="../sub3/sub3_1.html">매출현황</a></li>
+                            <li><a href="../sub3/sub3_2.html">재무제표</a></li>
+                            <li><a href="../sub3/sub3_3.html">재무비율</a></li>
+                        </ul>
+                </li>
+                <li class="m4 menu">
+                    <h3><a class="depth1" href="../sub4/sub4_1.html">홍보센터</a></h3>
+                        <ul>
+                            <li><a href="../sub4/sub4_1.html">사회공헌</a></li>
+                            <li><a href="../sub4/sub4_2.html">정보기술</a></li>
+                            <li><a href="../sub4/sub4_3.html">제주민속촌</a></li>
+                        </ul>
+                </li>        
+                <li class="m5 menu">
+                    <h3><a class="depth1"  href="../sub5/sub5_1.html">인재채용</a></h3>
+                        <ul>
+                            <li><a href="../sub5/sub5_1.html">인재상</a></li>
+                            <li><a href="../sub5/sub5_2.html">인재육성</a></li>
+                            <li><a href="../sub5/sub5_3.html">인사제도</a></li>
+                            <li><a href="../sub5/sub5_4.html">복리후생</a></li>
+                        </ul>
+                </li>        
+                <li class="m6 menu gnblast">
+                    <h3><a class="depth1" href="../sub6/sub6_1.html">고객센터</a></h3>
+                        <ul>
+                            <li><a href="../concert/list.php">KAS 소식</a></li>
+                            <li><a href="../greet/list.php">공지사항</a></li>
+                            <li><a href="../sub6/sub6_3.html">FAQ</a></li>
+                        </ul>
+                </li>
+            </ul>
+   </nav>
+</div>
+</header>

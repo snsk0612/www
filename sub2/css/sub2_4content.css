@@ -1,0 +1,100 @@
+/*정비&렌탈 내용영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #fff;}
+#content .title_area .line_map {position: absolute;top: 100px;left: 50%;margin-left: -140px;}
+#content .title_area .title_menubox{width: 1200px;margin:0 auto ;}
+#content .title_area .title_menubox ul{overflow: hidden;margin-top:120px;}
+#content .title_area .title_menubox li{float: left;width:50%;}
+#content .title_area .title_menubox li i{font-size: 3px;color: #ccc;position: absolute;top: 29px;left: 295px;
+transition: all .15s ease-in;}
+#content .title_area .title_menubox li:hover a i{color: #cf2920;}
+#content .title_area .title_menubox li a{display: block;color: #999;font-size: 0.889em;text-align: center;
+padding-bottom: 20px;font-weight: 600;position: relative;transition: all .5s;}
+#content .title_area .title_menubox li a::after{display: block; content: ''; width: 12px;height: 12px;border-radius: 6px;
+color: #ccc;position: absolute;top: 10px;left: 50%; transition: all .5s;}
+#content .title_area .title_menubox li a:hover{content: '';display: block;color: #666;}
+
+#content .content_area .bussiness{background: #f9f9f9;}
+#content .content_area .buss_inner h4{font-size: 2.333em;text-align: center;margin-bottom:150px; font-weight: 600;
+padding-top: 150px;position: relative;}
+#content .content_area .buss_inner h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 230px;left: 600px;}
+#content .content_area .buss_inner{width: 1200px;margin: 0 auto;position: relative;}
+#content .content_area .buss_inner h5{font-size: 36px;text-align: center;margin:150px 0 100px ; font-weight: 600;}
+#content .content_area .buss_inner img{margin-bottom: 150px;}
+#content .content_area .buss_inner .text_box{background: #fff;width: 80%;position: absolute;top: 700px;left:110px;
+padding: 80px 10px 50px 10px;margin-bottom: 20px;}
+#content .content_area .text_box .text1{font-size: 24px; font-family: 'NanumGothic'; text-align:center;margin-top: -50px;
+line-height: 1.8em; margin-bottom: 20px;font-weight: 500;}
+#content .content_area .text_box .text2{font-size: 24px;font-family: 'NanumGothic';padding: 0 50px;text-align: center;
+line-height:1.8em; font-weight: 500;}
+#content .content_area .text_box .air{color: #154297;}
+#content .content_area .buss_inner .last_box .last{text-align: left;font-size: 18px;font-family:'montserrato' 'NanumGothic';font-weight: 500;
+color: #666;margin-bottom: 20px;position: relative;margin-left: 20px;margin-top: 30px;}
+#content .content_area .buss_inner .last_box .last::after{content: '';display: block;width:5px;height: 5px;background: #cf2920;
+position: absolute;top: 10px;left: -15px;}
+#content .content_area .buss_inner .last_box .last_sp{margin-right: 20px;font-size:26px;color: #333;font-weight: 500;
+margin-left: 30px;}
+
+#content .content_area .service{width: 1200px;margin: 0 auto; background: #fff;}
+#content .content_area .service h5{font-size: 36px;text-align: center;margin:150px 0 100px ; font-weight: 600;
+padding-top: 100px;}
+#content .content_area .service ul{overflow: hidden;margin-left: 20px;}
+#content .content_area .service li img{margin: 50px 0 30px 0px;}
+#content .content_area .service li{float: left;padding-bottom: 125px;margin-left: 50px;}
+#content .content_area .service dl{border: 1px solid #ccc;padding-left: 30px;width: 460px;
+height: 450px;}
+#content .content_area .service dl:nth-of-type(1){padding-bottom: 50px;}
+#content .content_area .service dt{font-size: 30px;font-family: 'NanumGothic';font-weight: 400;
+margin:50px 0 30px ;text-align: center;}
+#content .content_area .service dd{font-size: 22px;font-family: 'NanumGothic';line-height: 1.5em;
+margin-bottom: 20px;position: relative;margin-left: 30px;}
+#content .content_area .service dd::after{content: '';display: block;width:5px;height: 5px;background: #154297;
+position: absolute;top: 15px;left: -15px;}
+
+
+
+#content .content_area .rental_bussiness{background: #f9f9f9;}
+#content .content_area .rental_buss_inner h4{font-size: 2.333em;text-align: center;margin-bottom:150px; font-weight: 600;
+padding-top: 150px;position: relative;}
+#content .content_area .rental_buss_inner h4::after{content: '';display: block;width:3px;height: 60px;background: #cf2920;
+position: absolute;top: 230px;left: 600px;}
+#content .content_area .rental_buss_inner{width: 1200px;margin: 0 auto;position: relative;}
+#content .content_area .rental_buss_inner h5{font-size: 36px;text-align: center;margin:150px 0 100px ; font-weight: 600;}
+#content .content_area .rental_buss_inner img{margin-bottom: 150px;}
+#content .content_area .rental_buss_inner .text_box{background: #fff;width: 80%;position: absolute;top: 730px;left:110px;
+padding: 80px 10px 50px 10px;margin-bottom: 20px;}
+#content .content_area .text_box .text1{font-size: 24px; font-family: 'NanumGothic'; text-align:center;margin-top: -50px;
+line-height: 1.8em; margin-bottom: 20px;font-weight: 500;}
+#content .content_area .text_box .text2{font-size: 20px;font-family: 'NanumGothic';padding: 0 50px;text-align: justify;
+line-height:1.5em; font-weight: 400;margin-bottom: 20px;}
+#content .content_area .text_box .air{color: #154297;}
+
+#content .content_area .rental_service{background: #fff;}
+#content .content_area .rental_ser_inner h5{font-size: 36px;text-align: center;margin:150px 0 100px ; font-weight: 600;
+padding-top: 100px;}
+#content .content_area .rental_ser_inner .se_text{font-size: 24px; font-family: 'NanumGothic'; text-align:center;margin-top: -50px;
+line-height: 1.8em; margin-bottom: 100px;font-weight: 500;}
+#content .content_area .rental_ser_inner .air{color: #154297;}
+
+#content .content_area .rental_service dl{margin-bottom: 100px;background: #f9f9f9;padding: 50px 0;}
+#content .content_area .rental_service dt{font-size: 26px;font-family: 'NanumGothic';font-weight: 500;color: #45befa;
+margin-bottom: 50px;text-align: center;}
+#content .content_area .rental_service dd{font-size: 20px;font-family: 'NanumGothic';font-weight: 500;margin-bottom: 30px;
+position: relative;text-align: justify;margin-left: 400px;line-height: 2em;}
+#content .content_area .rental_service dd::after{content: '';display: block;width:5px;height: 5px;background: #154297;
+position: absolute;top: 15px;left: -15px;}
+
+#content .content_area .table_inner{width: 1200px;margin: 0 auto;background: #fff;}
+#content .content_area .table_inner .slogan{font-size: 20px;font-family: 'NanumGothic';font-weight: 500;
+margin-bottom: 20px;margin-left: 70px;}
+#content .content_area .table_inner table{margin-left: 70px;margin-bottom: 150px;}
+#content .content_area .table_inner thead{border-top: 1px solid #ccc; background:rgba(21, 66, 151, .7);
+font-size: 20px;}
+#content .content_area .table_inner th{padding: 20px;color: #fff;}
+#content .content_area .table_inner tbody{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;font-size: 20px;}
+#content .content_area .table_inner td{padding: 20px;text-align: justify;border-bottom: 1px solid #ccc;
+padding-left: 150px;}
+#content .content_area .table_inner td span{font-size: 22px; font-family: 'NanumGothic';font-weight: 500;
+margin-right: 100px;}
+#content .content_area .table_inner td:nth-of-type(3){border-bottom: none;}

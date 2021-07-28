@@ -1,0 +1,102 @@
+.content_area h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'NanumGothic',sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+#write_form{
+    width: 1000px;
+    margin: 0 auto;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+}
+.col1{
+    width: 100px;
+    float: left;
+    font-weight: 600;
+    background: #f9f9f9;
+    text-align: center;
+    margin: 5px 0;
+    padding: 15px;
+    margin-right: 10px;
+}
+.col2{
+    float: left;
+    margin: 5px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 570px;
+}
+.col3{
+    float:right;
+    padding-top: 20px;
+    margin-right: 120px;
+
+}
+#write_row1{
+    overflow: hidden;
+}
+#write_row2{
+    overflow: hidden;
+}
+#write_row2 input{
+    background: #f9f9f9;
+    width:570px;
+    padding: 20px;
+}
+#write_row2 .mo{
+    background: #f9f9f9;
+    width:525px;
+    padding: 20px;
+}
+#write_row3{
+    overflow: hidden;
+    padding-top: 10px;
+}
+#write_row3 textarea{
+    background: #f9f9f9;
+    width: 570px;
+    height: 290px;
+}
+.content_area #write_button{
+    width: 1000px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.content_area #write_button a{
+    display: block;
+    float: right;
+    width: 60px;
+    background: #154297;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px ;
+    margin-right: 10px;
+    font-family:'NanumGothic',sans-serif;
+    border: 1px solid #154297;
+}
+
+.content_area #write_button a:hover{
+    background: #fff;
+    color: #154297;
+}
+.content_area #write_button input{
+    display: block;
+    float: right;
+    width: 80px;
+    background: #154297;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px ;
+    margin-right: 10px;
+    font-family:'NanumGothic',sans-serif;
+    border: 1px solid #154297;
+}
+.content_area #write_button input:hover{
+    background: #fff;
+    color: #154297;
+}

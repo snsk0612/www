@@ -1,0 +1,30 @@
+/*제주민속촌 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .content_area{width: 1200px; margin: 0 auto;}
+
+#content .content_area .title_visual{position: relative;overflow: hidden; width: 1200px;}
+#content .content_area .title_visual img{margin:80px 0; border-radius: 50px;float: left;}
+#content .content_area .title_visual p{width: 1000px; height: 50px; background:#fff; position: absolute;
+top: 140px;right:18px;font-size: 1.3em;font-weight: 600;padding:50px 20px 70px;font-family: 'NanumGothic';text-align:justify;
+line-height:1.5em;color: #b17304;border-radius: 20px 0 50px 0; border-top: 5px solid rgb(252, 121, 0);box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .2);}
+#content .content_area .title_visual span{font-size: 1.2em; font-family: 'NanumGothic';line-height: 2em;text-align: justify;
+position: absolute;top: 365px;right: 50px;width: 500px;}
+#content .content_area .list{width: 1200px; margin: 0 auto;}
+#content .content_area .list li{overflow: hidden;}
+#content .content_area .list img{width: 400px; height: 300px;margin: 50px 0;float: left;border-radius:20px;
+border: 1px solid #ccc;padding: 10px;}
+#content .content_area .list dl{margin:110px 0 0 455px ;}
+#content .content_area .list dt{font-size: 30px;font-family: 'NanumGothic';margin:0 0 30px 10px;position: relative; 
+font-weight: 500; border-bottom:1px solid #fcd400;padding-bottom: 30px;}
+#content .content_area .list dt::after{content: '';display: block; width: 5px; height: 25px; background: #b17304;
+position: absolute;top: 5px;left: -15px;}
+#content .content_area .list dd{line-height: 2em;}
+
+
+
+#content .content_area .btn a{display: block; width: 150px;height: 30px;border-radius:40px;border: 4px solid rgb(188, 112, 14);
+font-size:18px;font-weight: 600;color: rgb(188, 112, 14);text-align: center;padding: 14px 0 7px 0;
+font-family: 'NanumGothic';margin: 50px 0 150px 550px;}
+#content .content_area .btn a:hover{background:rgb(188, 112, 14);
+color: #fff;}

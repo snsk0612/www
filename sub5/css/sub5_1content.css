@@ -1,0 +1,58 @@
+/*인재채용 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area p{font-size: 1.667em;font-family: 'NanumGothic';font-weight: 400;margin: 50px 0 ;text-align: center;}
+#content .content_area .red{color: #cf2920;}
+#content .content_area .blue{color: #154297;}
+#content .content_area dl{overflow: hidden;margin-bottom: 50px;}
+#content .content_area .text_1{float: left;font-size: 2.778em;font-weight: 600;margin-right: 100px;position: relative;}
+#content .content_area .text_1::after{content: ''; width: 3px;height: 65px;background: #cf2920;position: absolute;top: -5;
+left: 170px;}
+#content .content_area .text_2{line-height: 1.5em; text-align: justify;}
+#content .content_area .circle{overflow: hidden;margin-bottom: 50px;}
+#content .content_area .circle li{float: left; margin:50px 0 100px 80px;position: relative;}
+#content .content_area .circle li span{font-size: 1.667em; text-align: center;color: #fff;position: absolute;
+top:80px;left:30px;line-height: 1.2em;}
+#content .content_area .circle li .first{margin-left: 15px;}
+#content .content_area .circle li .last{margin-left: -20px;}
+#content .content_area .circle li:nth-child(1){width: 200px; height: 200px; border-radius: 100px;background: #8a5bf5;}
+#content .content_area .circle li:nth-child(2){width: 200px; height: 200px; border-radius: 100px;background: #46ae72;}
+#content .content_area .circle li:nth-child(3){width: 200px; height: 200px; border-radius: 100px;background: #cac956;}
+#content .content_area .circle li:nth-child(4){width: 200px; height: 200px; border-radius: 100px;background: #c25b55;}
+#content .content_area .circle li:nth-child(1):after{content: ''; width: 210px;height: 210px;border: 5px dotted #8a5bf5;
+border-radius: 105px;position: absolute;top: -10px;left: -10px;}
+#content .content_area .circle li:nth-child(2):after{content: ''; width: 210px;height: 210px;border: 5px dotted #46ae72;
+border-radius: 105px;position: absolute;top: -10px;left: -10px;}
+#content .content_area .circle li:nth-child(3):after{content: ''; width: 210px;height: 210px;border: 5px dotted #cac956;
+border-radius: 105px;position: absolute;top: -10px;left: -10px;}
+#content .content_area .circle li:nth-child(4):after{content: ''; width: 210px;height: 210px;border: 5px dotted #c25b55;
+border-radius: 105px;position: absolute;top: -10px;left: -10px;}
+
+#content .content_area .text_inner{overflow: hidden;width: 1200px;margin: 0 auto; list-style: none;margin-bottom: 50px;
+position: relative;}
+#content .content_area .text_inner img{width: 1100px;margin:0 0 100px 50px; box-shadow:5px 5px 10px 1px rgba(0, 0, 0, .2);}
+#content .content_area .text_inner .in{font-family: 'montserrat';font-size: 40px;font-weight: 800;position: absolute;
+top: 50px;left: 400px;}
+#content .content_area .text_inner li{margin:20px 100px 150px 0;float: left;width:300px;position: relative;
+padding-top:100px;}
+#content .content_area .text_inner li:nth-of-type(1){margin-left: 50px;}
+/* #content .content_area .text_inner li:nth-of-type(1)::after{content: '';width: 1px;height: 350px;background: #ccc;
+position: absolute;top: 10px;left: 350px;display: block;}
+#content .content_area .text_inner li:nth-of-type(2)::after{content: '';width: 1px;height: 350px;background: #ccc;
+position: absolute;top: 10px;left: 350px;display: block;} */
+#content .content_area .text_inner li:nth-of-type(1)::before{content: '';display: block;position: absolute;
+left:85px;top:-25px;width: 128px;height: 128px;background: url(../images/content1/idea.png)no-repeat;}
+#content .content_area .text_inner li:nth-of-type(2)::before{content: '';display: block;position: absolute;
+left:90px;top:-25px;width: 128px;height: 128px;background: url(../images/content1/hands-up.png)no-repeat;}
+#content .content_area .text_inner li:nth-of-type(3)::before{content: '';display: block;position: absolute;
+right:90px;top:-25px;width: 128px;height: 128px;background: url(../images/content1/leadership.png)no-repeat;}
+
+#content .content_area .text_inner dt{text-align: center; line-height: 1.5em; font-size: 1.2em;font-weight: 500;
+font-family: 'NanumGothic';margin-bottom: 20px; padding-top:20px; }
+#content .content_area .text_inner dd{line-height: 1.5em;font-family:'NanumGothic';text-align: justify;}
+#content .content_area .text_inner .last_box{margin-right:0px;}
+
+#content .content_area .text_inner .purple span{color: #8a5bf5;}
+#content .content_area .text_inner .green span{color: #46ae72;}
+#content .content_area .text_inner .pink span{color: #c25b55;}

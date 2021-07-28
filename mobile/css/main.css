@@ -1,0 +1,112 @@
+/* CSS Document */
+
+/*비주얼 영역*/
+.main{margin-bottom: 100px;}
+.main .flexslider .slides img {
+    width: 100%;
+    display: block;}
+.main .flexslider .slides li{position: relative;}
+.main .slides .visual_text{position: absolute;top:50%;left: 10px;}
+.main .slides .down{top:70%;left: 10px;}
+
+.main .slides .visual_text .big{font-size: 26px;font-family: 'montserrat';
+font-weight: bold; color: #fff;opacity: .7;margin-bottom: 10px; letter-spacing:3px;
+}
+.main .slides .visual_text p{font-size:18px;font-family: 'montserrat';text-align: right;
+font-weight: bold; color: #fff;opacity: .7;margin-top: 5px;letter-spacing:2px;text-align: justify;}
+
+/*컨텐츠 영역*/
+
+#content .business{width: 100%; margin-bottom: 100px;}
+#content .business .title h3{font-size: 30px;font-weight: 500;
+font-family: 'montserrat';color:#45befa;
+text-align: left;position: relative;
+margin-left: 10%;}
+#content .business .title h3::after{content: ''; width: 45px;height: 1px;
+margin: 0 5px;position: absolute;top:20px;left: -55px;
+background: #999;}
+#content .business .title span{font-size: 12px;font-family: 'montserrat';
+margin-left: 55px;text-align: left;
+margin-bottom: 20px;}
+
+#content .business .bu1{width: 100%;}
+
+#content .business .bu1 li:nth-of-type(1){
+background: url(../images/cabin1x2.png)center no-repeat;
+background-size: cover;}
+#content .business .bu1 li:nth-of-type(2){
+    background: url(../images/cargo1x2.png)center no-repeat;
+    background-size: cover;}
+#content .business .bu1 li:nth-of-type(3){
+background: url(../images/fuel1x2.png)center no-repeat;
+background-size: cover;}
+#content .business .bu1 li:nth-of-type(4){
+    background: url(../images/rental1x2.png)center no-repeat;
+    background-size: cover;}
+#content .business .bu1 .bu_box{width: 100%; margin-bottom: 10px;
+height: 200px;position: relative; overflow: hidden;}
+#content .business .bu1 .bu_box dl{width: 100%;height: 200px;
+background: rgba(0,0,0,.6);position: absolute;}
+#content .business .bu1 .bu_box dt{color: #fff;
+text-align: center; font-size: 20px;font-weight: 500; margin-top: 20px;font-family: 'montserrat';}
+#content .business .bu1 .bu_box dd{text-align: center;color: #fff;
+padding: 10px 0;line-height: 1.5em;font-size: 16px;}
+#content .bu_btn{display:block;width: 150px; margin: 0 auto;position:absolute; left:50%; margin-left: -75px; bottom:20px;
+    color: #fff; text-align: center;border: 1px solid #fff; padding: 10px 0;
+    font-family: 'NanumGothic', sans-serif; font-weight:500;}
+
+
+#content .company{width: 100%;margin-bottom: 100px;}
+#content .company .title h3{font-size: 30px;font-weight: 500;
+    font-family: 'montserrat';color:#45befa;
+    text-align: left;position: relative;
+    margin-left: 10%;}
+#content .company .title h3::after{content: ''; width: 45px;height: 1px;
+margin: 0 5px;position: absolute;top:20px;left: -55px;
+background: #999;}
+#content .company .title span{font-size: 12px;font-family: 'montserrat';
+margin-left: 55px;text-align: left;
+margin-bottom: 20px;}
+#content .company .mission{background: url(../images/mission1x2.png)center no-repeat;
+    background-size: cover;height: 400px;}
+#content .company .mission h4{font-size: 30px; color: #fff;font-weight: 500;
+text-align: center;font-family: 'montserrat';padding:50px 0 20px;}
+#content .company .mission p{font-size: 16px;color: #fff;text-align: center;
+margin: 10px 0;font-family: 'NanumGothic';line-height: 1.2em;}
+#content .com_btn{width: 300px; margin: 0 auto;position: relative;}
+#content .com_btn a{display: block; margin: 40px 15px 0 15px; width: 120px;
+color: #fff; text-align: center;border: 1px solid #fff; padding: 10px 0;
+font-family: 'NanumGothic', sans-serif; font-weight:500;position: absolute;top: 75px;left:75px;}
+
+#content .recruite{width: 100%;margin-bottom: 100px;}
+#content .recruite .title h3{font-size: 30px;font-weight: 500;
+    font-family: 'montserrat';color:#45befa;
+    text-align: left;position: relative;
+    margin-left: 10%;}
+#content .recruite .title h3::after{content: ''; width: 45px;height: 1px;
+    margin: 0 5px;position: absolute;top:20px;left: -55px;
+    background: #999;}
+#content .recruite .title span{font-size: 12px;font-family: 'montserrat';
+    margin-left: 55px;text-align: left;
+    margin-bottom: 20px;}
+#content .recruite .re_box1{position: relative;}
+#content .recruite .re_box1 img{width: 100%;}
+#content .recruite .re_box1 .text_box{position: absolute;
+    top:50%; margin-top: -90px; left: 0;text-align: center;width: 100%;}
+#content .recruite .text_box dt{font-size: 24px;padding: 15px 0;
+font-weight:700;color: #fff;font-family: 'NanumGothic'; } 
+#content .recruite .text_box dd{line-height: 1.5em;color: #fff;padding-bottom: 20px;font-size: 16px;}
+#content .recruite .text_box .re_btn{display: block;width: 120px;
+color: #fff; text-align: center;border: 1px solid #fff; padding: 10px 0; background: rgba(0,0,0,.4);
+font-family: 'NanumGothic', sans-serif; font-weight:500; margin: 0 auto;}
+
+#content .recruite .re_box2{width: 100%;}
+#content .recruite .re_box2 ul{overflow: hidden;}
+#content .recruite .re_box2 ul li{float: left;width: 50%;text-align: center;}
+#content .recruite .re_box2 a{display: block; text-align:center;color: #fff;font-size: 22px;
+    font-family: 'NanumGothic';font-weight: 500;margin: 20px 0;}
+#content .recruite .re_box2 a img{display: block;width: 100px; margin: 20px auto;}
+#content .recruite .re_box2 ul li a span{display: block;text-align: center;}
+#content .recruite .re_box2 ul li:nth-of-type(1){background: #3498db;}
+#content .recruite .re_box2 ul li:nth-of-type(2){background: #faa345;}
+

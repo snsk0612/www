@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{background: #f9f9f9;}
+.header{border-bottom: 1px solid #ccc; background: #fff;}
+.header .header_inner{margin:0 auto;box-sizing: border-box;}
+.header .logo{margin: 0 540px;padding: 30px 0;}
+.header .logo h1 a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url(../images/logo.png)
+}
+
+#content{
+      width: 820px;
+      margin: 0 auto;
+      background:#fff ;
+      margin-top: 50px;
+      margin-bottom: 200px;
+      border: 2px solid #154297;
+      padding:50px;
+      border-radius: 15px;
+      font-family: 'Noto+ erif',sans-serif;
+}  
+
+table{width: 80%; margin: 0 10%;border-top: 2px solid #156297;}
+th,td{border-bottom: 1px solid #ccc; padding:20px 10px;}
+th{width: 20%; text-align: left;font-size: 16px;}
+td{width: 80%; position: relative;}
+input, select{padding: 8px; border-radius: 8px;
+      font-size:20px; border: 1px solid #ccc;width: 490px;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+
+#content h2{
+      font-size: 50px;
+      text-align: center;
+      padding: 30px 0;
+      font-weight: 600;
+}
+#content .slogan{
+      display: block;
+      text-align: left;
+      font-size: 16px;
+      color: #333;
+      margin: 20px 0 30px 85px;
+
+}
+#content .star{color: red; margin-left: 2px;}
+#content .ph input{
+      width: 150px;
+}
+#content .ph select{
+      width: 125px;
+      padding:12px 0px;
+      font-size: 20px;
+}
+#content .em input{
+      width: 220px;
+}
+#loadtext{
+      position: absolute;
+      top: 30px;
+      right: 25px;
+      font-size: 14px;
+}
+#loadtext2{
+      position:absolute;
+      top: 30px;
+      right: 25px;
+      font-size: 14px;
+}
+.finish a{
+      display: inline-block;
+      padding: 10px 50px;
+      background: rgba(21,66,151,.5);
+      color: #fff;
+      border-radius: 8px;
+      margin: 20px 0;
+}
+.finish a:hover{
+      background: #e9e9e9;
+      color: #333;
+}
+tr:nth-of-type(7){
+      margin-bottom: 50px;
+}

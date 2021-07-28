@@ -1,0 +1,101 @@
+.sub_menu{margin-top: 50px; position: relative;}
+.visual_area_box{height: 170px; overflow: hidden; background: url(../images/visual_sub2.png) center no-repeat; 
+background-size: cover;}
+.sub_menu h3{position: absolute; top: 50px; width: 100%; text-align: center; color: #fff; font-size: 22px;
+font-weight: 700;}
+
+.sub_box{overflow: hidden; width: 100%; position: absolute; bottom: 0; background: rgba(21, 66,151, .3);}
+.sub_box li{float: left; width: 25%;}
+.sub_box li a{display: block; padding: 10px 0; font-size: 18px;font-family:'NanumGothic';color: #fff;
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;} 
+
+#content h2{margin:50px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+
+#content .title_menubox{width: 100%;margin:0 auto ;position: relative;border-bottom: 1px solid #ccc;
+background: #fff;}
+#content .title_menubox ul{overflow: hidden;margin-top:60px;}
+#content .title_menubox ul li{float: left;width:50% ;}
+#content .title_menubox ul li i{font-size: 3px;color: #ccc;position: absolute;top: 30px;left: 50%;}
+#content .title_area .title_menubox ul li:hover a i{color: #cf2920;}
+#content .title_menubox ul li a{display: block;color: #666;font-size: 16px;text-align: center;
+padding-bottom: 15px;font-weight: 500;position: relative;}
+
+#content .content_area .bussiness{background: #f9f9f9;padding-bottom: 50px;}
+#content .content_area .bussiness .buss_inner{margin: 0 auto;position: relative;}
+#content .content_area .bussiness h4{font-size: 24px;text-align: center;margin-bottom:90px; font-weight: 600;
+padding-top: 50px;}
+#content .content_area .bussiness h5{font-size: 22px;text-align: center;margin:50px 0; font-weight: 600;}
+#content .content_area .bussiness h4::after{content: '';display: block;width:3px;height: 50px;background: #cf2920;
+position: absolute;top: 100px;left: 50%;}
+#content .content_area .bussiness img{width: 100%;}
+
+#content .content_area .bussiness .text_box{background: #fff;padding: 20px 5%;margin-bottom: 30px;}
+#content .content_area .bussiness .text1{font-size: 22px; font-family: 'NanumGothic'; text-align:center;padding-top:20px ;
+line-height: 1.5em; margin-bottom: 30px;font-weight: 500;}
+#content .content_area .bussiness .text2{text-align: justify;line-height: 2em;font-size: 16px;}
+#content .content_area .bussiness .text1 .air{color: #154297;}
+
+#content .content_area .bussiness .last_box{padding:0 5% ;}
+#content .content_area .bussiness .last_box .last{text-align: left;font-size: 16px;font-family:'montserrato','NanumGothic';font-weight: 500;
+color: #666;margin-bottom: 20px;position: relative;line-height: 2em;}
+#content .content_area .bussiness .last_box .last::after{content: '';display: block;width:5px;height: 5px;background: #cf2920;
+position: absolute;top: 15px;left: -15px;}
+#content .content_area .bussiness .last_box .last_sp{color: #154297;margin-right: 20px;font-size: 20px;margin-bottom: 20px;}   
+
+#content .content_area .service{margin: 0 auto;position: relative;}
+#content .content_area .service h5{font-size: 22px;text-align: center;margin:50px 0; font-weight: 600;}
+#content .content_area .service dl{width: 90%;margin: 50px 5%;margin-bottom: 20px;}
+#content .content_area .service dt{font-size: 22px;font-family: 'NanumGothic';margin-bottom: 30px; font-weight: 600;
+text-align: center;margin-top: 20px;}
+#content .content_area .service dd{font-size: 16px;font-family: 'NanumGothic';position: relative;text-align: justify;
+line-height: 2em;margin: 0px 5%;}
+#content .content_area .service dd::after{display: block;content: "";position: absolute;
+top: 18px;left: -15px;width: 6px;height: 2px;background: #4b4b4b;}
+
+#content .content_area .rental_bussiness{background: #f9f9f9;padding-bottom: 50px;}
+#content .content_area .rental_bussiness .rental_buss_inner{margin: 0 auto;position: relative;}
+#content .content_area .rental_bussiness h4{font-size: 24px;text-align: center;margin-bottom:90px; font-weight: 600;
+padding-top: 50px;}
+#content .content_area .rental_bussiness h5{font-size: 22px;text-align: center;margin:50px 0; font-weight: 600;}
+#content .content_area .rental_bussiness h4::after{content: '';display: block;width:3px;height: 50px;background: #cf2920;
+position: absolute;top: 100px;left: 50%;}
+#content .content_area .rental_bussiness img{width: 100%;}
+
+#content .content_area .rental_bussiness .text_box{background: #fff;padding: 20px 5%;margin-bottom: 30px;}
+#content .content_area .rental_bussiness .text1{font-size: 22px; font-family: 'NanumGothic'; text-align:center;padding-top:20px ;
+line-height: 1.5em; margin-bottom: 30px;font-weight: 500;}
+#content .content_area .rental_bussiness .text2{text-align: justify;line-height: 2em;font-size: 16px;}
+#content .content_area .rental_bussiness .text1 .air{color: #154297;}
+
+#content .content_area .rental_service{background: #fff;}
+#content .content_area .rental_service h5{font-size: 20px;text-align: center;margin:50px 0; font-weight: 600;
+padding-top: 20px;}
+#content .content_area .rental_service .se_text{background: #fff;padding: 20px 5%;margin-bottom: 30px;font-size: 18px;
+font-family: 'NanumGothic'; text-align:center;padding-top:20px ;line-height: 1.5em; font-weight: 500;}
+#content .content_area .rental_service .air{color: #154297;}
+
+#content .content_area .rental_service dl{margin-bottom: 100px;}
+#content .content_area .rental_service dt{font-size: 20px;font-family: 'NanumGothic';font-weight: 500;color: #45befa;
+margin-bottom: 50px;text-align: center;}
+#content .content_area .rental_service dd{font-size: 16px;font-family: 'NanumGothic';font-weight: 500;margin-bottom: 30px;
+position: relative;text-align: justify;margin:0 30%;line-height: 2em;}
+#content .content_area .rental_service dd::after{content: '';display: block;width:5px;height: 5px;background: #154297;
+position: absolute;top: 15px;left: -15px;}
+
+#content .content_area .table_inner{margin: 0 auto;}
+#content .content_area .table_inner .slogan{font-size: 18px;font-family: 'NanumGothic';font-weight: 500;
+margin-bottom: 20px;margin-left: 5%;}
+#content .content_area .table_inner table{width:90%;margin:20px 5% 100px 5%;}
+#content .content_area .table_inner thead{border-top: 1px solid #ccc; background:rgba(21, 66, 151, .7);
+font-size:16px;}
+#content .content_area .table_inner th{padding: 10px;color: #fff;}
+#content .content_area .table_inner tbody{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;font-size: 12px;}
+#content .content_area .table_inner td{padding: 10px;text-align: justify;border-bottom: 1px solid #ccc;
+padding-left: 5%;}
+#content .content_area .table_inner td span{font-size: 12px; font-family: 'NanumGothic';font-weight: 500;
+margin-right: 5%;}
+#content .content_area .table_inner td:nth-of-type(3){border-bottom: none;}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{background: #f9f9f9;}
+.header{border-bottom: 1px solid #ccc; background: #fff;}
+.header .header_inner{margin:0 auto;box-sizing: border-box;}
+.header .logo{margin: 0 540px;padding: 30px 0;}
+.header .logo h1 a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url(../../common/images/logo.png)
+}
+#content{
+    width: 600px;
+    margin: 0 auto;
+    background:#fff ;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border: 2px solid #154297;
+    padding:50px;
+    border-radius: 15px;
+    font-family: 'Noto+ erif',sans-serif;
+} 
+#content h2 {
+    font-size: 50px;
+    color: #333;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 20px;
+}    
+#content p{
+    margin-bottom: 50px;
+}
+input{
+    margin-bottom: 20px;
+    width: 590px;
+    background: #eaebef;
+    padding: 5px; 
+    height: 40px; 
+    font-size: 16px;
+    border: none;
+}
+.telBox select{
+    width: 150px;
+    font-size: 16px;
+    color: #333;
+    height: 50px;
+    background: #eaebef;
+    padding:10px;
+}
+.telBox input{
+    width: 184px;
+    display: inline;
+}
+.find{
+    display: block;
+    width: 590px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.go{
+    overflow: hidden;
+    width: 600px;
+    margin: 20px auto;  
+}
+.go li{
+    text-align: center;
+    margin: 20px auto;
+    overflow: hidden;
+    color: #666;
+}
+.go li:nth-of-type(1){
+    float: left;
+}
+.go li:nth-of-type(2){
+    float: right;
+}
+.go li a{
+    margin-left: 15px;
+}
+.find li a i{
+    margin-right: 5px;
+}
+
+#join_button{
+    overflow: hidden; 
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#join_button p::before{
+    width: 600px; 
+    height: 1px; 
+    content: ''; 
+    background: #ccc; 
+    position: absolute; 
+    top: 0; left: 0
+}
+#join_button p{font-weight: 400; color: #666; margin: 20px 0;}
+#join_button a{
+    position: absolute; 
+    right: 0; top: 10px; 
+    display: block;
+    background: #004b84; 
+    color: #fff; 
+    padding: 14.5px 5px; 
+    font-size: 16px; 
+    border: none; 
+    width: 200px; 
+    float: right; 
+    text-align: center
+}
+#join_button a:hover{
+    color: #004b84; 
+    background: #fff; 
+    width: 200px; 
+    border: #004b84 solid 1px; 
+    padding: 13.5px 5px;
+}
+.loadtext{
+    text-align: left;
+    display: block;
+    line-height: 2em;
+    border: 1px solid #ccc;
+    padding:10px;
+}

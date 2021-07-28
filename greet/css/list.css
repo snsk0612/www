@@ -1,0 +1,182 @@
+.form_inner{
+    overflow: hidden;
+}
+#list_search{
+    float: right;
+    width: 600px;
+    margin: 50px 300px 50px;
+    border: 1px solid #154297;
+    padding:10px;
+    border-radius: 15px;
+}
+#list_search #list_search1{
+    float: left;
+}
+#list_search #list_search1 select{
+    font-family:'NanumGothic',sans-serif;
+    font-size: 16px;
+    width: 100px;
+    border: 1px solid #154297;
+    padding: 10px;
+    margin: 10px 15px 10px 35px ;
+}
+#list_search #list_search2{
+    float: left;
+}
+#list_search #list_search2 input{
+    font-family:'NanumGothic',sans-serif;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #154297;
+    padding: 10px;
+    margin: 10px 15px 10px 10px;
+}
+#list_search #list_search3{
+    float: left;
+}
+#list_search #list_search3 input{
+    font-family:'NanumGothic',sans-serif;
+    font-size: 16px;
+    width: 100px;
+    background: #154297;
+    padding: 10px;
+    margin: 10px 15px 10px 10px;
+    color: #fff;
+    border: none;
+}
+
+.list_total{
+    float: right;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family:'NanumGothic',sans-serif;
+}
+.scale_list{
+    float: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#list_top_title{
+    clear: both;
+    width: 1200px;
+    
+}
+#list_top_title ul{
+    overflow: hidden;
+    border-top: 2px solid #154297;
+    background: #f9f9f9;
+    padding: 15px 0px;
+}
+#list_top_title li{
+    display: block;
+    text-align: center;
+    float: left;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 30px;
+}
+#list_title1{
+    width: 80px;
+}
+#list_title2{
+    width: 600px;
+}
+#list_title3{
+    width: 100px;
+}
+#list_title4{
+    width: 130px;
+}
+#list_title5{
+    width: 90px;
+}
+#list_content{
+    margin: 0 auto;
+}
+#list_item{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+#list_item1{
+    float: left;
+    text-align: center;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    width:80px;
+    margin-left: 30px;
+    color: #154297;
+}
+#list_item2{
+    float: left;
+    text-align: left;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    width:600px;
+    margin-left: 30px;
+}
+#list_item3{
+    float: left;
+    text-align: center;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    width:100px;
+    margin-left: 30px;
+}
+#list_item4{
+    float: left;
+    text-align: center;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    width:130px;
+    margin-left: 30px;
+}
+#list_item5{
+    float: left;
+    text-align: center;
+    font-family:'NanumGothic',sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    width:90px;
+    margin-left: 30px;
+}
+#list_item2:hover{
+    text-decoration: underline;
+}
+#page_button{
+    margin-top: 50px;    
+}
+#page_num{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+#button{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#button a{
+    display: block;
+    float: right;
+    width: 60px;
+    background: #154297;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px ;
+    margin-right: 10px;
+    font-family:'NanumGothic',sans-serif;
+    border: 1px solid #154297;
+}
+
+#button a:hover{
+    background: #fff;
+    color: #154297;
+}
+

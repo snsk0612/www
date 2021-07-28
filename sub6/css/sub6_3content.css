@@ -1,0 +1,24 @@
+/*FAQ 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .title_area h2{font-family: 'montserrat';}
+#content .content_area{width: 1200px; margin: 0 auto;}
+
+.content_area .con_text{font-size: 30px;font-family: 'NanumGothic';text-align: center; margin:100px 0;
+line-height: 2em;}
+
+.content_area .faq{width:1200px; border-bottom:1px solid #ddd;font-size:20px;margin:0 0 200px 0px;font-weight: 600;}  
+.content_area .faq .blue{font-family: 'montserrat';color: #154297;font-weight: 700;margin-right: 15px;}
+.content_area .faq .sky{font-family: 'montserrat';color: #45befa;font-weight: 500;margin-right: 15px;}
+.content_area .faq ul{margin:0;padding:0;}  
+.content_area .faq .q{margin:0;border-top:1px solid #ddd; position: relative;} 
+.content_area .faq .q i{margin-top: 35px;}
+.content_area .faq .first{border-top:3px solid #cf2920;}
+.content_area .faq .q a.trigger{display:block;padding:40px 50px;background:#fafafa;
+color:#333;text-align:left;text-decoration:none ;}  
+.content_area .faq .hide .q a.trigger{background:none}  
+.content_area .faq .q a.trigger:hover,  .faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:#f9f9f9;color:#000} 
+.content_area .faq .q span{display: block; position: absolute; right: 15px; top:10px} 
+.content_area .faq .a{margin:35px;padding:30px 15px 20px 0;line-height:2em; margin-top:0px; 
+margin-bottom:0px;display: none;text-align: justify;font-size:18px ;font-weight: 500;} 

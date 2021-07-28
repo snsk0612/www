@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: 'NanumGothic',"돋움",Dotum,"굴림",Gulim sans-serif; font-size: 18px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+  /* 헤드라인 폰트 연결 */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  /*font-family: 'Nanum Gothic', sans-serif;*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+  /*font-family: 'Nanum Myeongjo', serif; */
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+  /*font-family: 'Montserrat', sans-serif; */
+
+/*스킵네비게이션*/
+#skipNav{position:relative;width:100%;overflow:hidden;
+z-index: 60;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:18px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     height:auto;padding:10px 0; background: #f2f2f2;}
+
+
+/* 헤더공통영역 */
+.wrap{width: 100%;overflow: hidden;}
+#headerArea{position: fixed;width: 100%;height:200px;
+z-index: 50;background: #fff;border-bottom: 1px solid #ccc;} 
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+
+#headerArea .header_menu ul{overflow: hidden;}
+#headerArea .header_menu ul li a{float:right;  margin: 20px 25px 0 0;color: #333;
+                                font-size: 0.8em; font-weight:bold; font-family: "Nanum Gothic"; }
+#headerArea .header_menu .last{margin-right: 25px;}
+
+#headerArea h1 a{display: block; width: 280px; height: 60px; background: url(../../common/images/logo.png)no-repeat;
+text-indent: -999px; overflow: hidden;margin: 10px 0 0 459px;}
+
+#headerArea #gnb{clear:both;width:1200px;font-size: 1.1em;color: #333;font-weight: bold;font-family: "Nanum Gothic";}
+#headerArea #gnb .dropdownmenu{float:left;padding:20px 0 30px 0;}
+#headerArea #gnb .dropdownmenu .menu{position:relative;float:left;width:200px; height: 50px;}
+
+#headerArea #gnb .dropdownmenu .menu::after{content: '';display: block;width: 50px;height: 2px;
+background: #154297;position: absolute;left: 40%;bottom: -10px;opacity: 0;transition: all .5s;}
+#headerArea #gnb .dropdownmenu .menu:hover::after{width: 50%;left: 50px;opacity: 1;}
+
+#headerArea #gnb .dropdownmenu .menu .depth1{display:block;width:200px;padding: 20px 0; text-align: center; 
+transition: all .3s; }
+
+#headerArea #gnb .dropdownmenu .menu ul{width:200px; height:156px; position:absolute;top:50px;left:0;
+padding:15px 0; line-height:2em; display:none;}
+#headerArea #gnb .dropdownmenu .menu ul li{ text-align:center;}
+#headerArea #gnb .dropdownmenu .menu ul li a{display:block;font-size: 16px;font-weight: 400;
+font-family: 'NanumGothic';  color:#333; transition: all .1s ease-out;}
+#headerArea #gnb .dropdownmenu .menu li a:hover{color: #45befa;}
+
+
+/* #headerArea #gnb{width: 1200px;font-size: 1.1em; color:#333; font-weight:bold; font-family: "Nanum Gothic";}
+#headerArea #gnb ul{overflow: hidden; margin: 30px 0 30px 50px;}
+#headerArea #gnb li{float: left;  margin-right: 124px; }
+#headerArea #gnb .gnblast{margin-right:0;} */
+
+/* 푸터 공통영역 */
+#footerArea{width:100%;position: relative;background:#333;height: 258px;} 
+#footerArea::after{content: '';display: block;width: 100%;height:1px;
+border-bottom: 1px solid #000;position: absolute;top: 50px;left: 0;}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto;}
+#footerArea .footer_top{height: 51px;}
+
+#footerArea .footer_top .footer_family{width:430px; height:51px; border-right:1px solid #000;border-left:1px solid #000;
+position:relative;background:#333; float: left;}
+#footerArea .footer_family .arrow{display:block; font-size:28px;padding:10px 0 3px 20px;color: #ccc;
+font-family: 'Montserrat';font-weight: 500;}
+#footerArea .footer_family .arrow i{color: #ccc;margin-left: 170px;}
+#footerArea .footer_family .arrow:hover{color:#fff}
+#footerArea .footer_family .aList{ position:absolute; top:-142px; left:-1px; width:433px;
+display: none;z-index: 20;background: rgba(51, 51, 51, .8);}
+#footerArea .footer_family .aList li{ line-height:1.5em; border-bottom:1px solid #000;}
+#footerArea .footer_family .aList li:hover{background:rgba(255, 255, 255, .9); }
+#footerArea .footer_family .aList li:nth-of-type(3){border-bottom: none;}
+#footerArea .footer_family .aList li a{display:block;padding-left:20px;color: #fff;padding: 10px;margin-left: 15px;}
+#footerArea .footer_family .aList li a:hover{ color:#333;font-weight: 500;}
+
+#footerArea .footer_top .footer_menu ul{font-weight: bold; margin: 15px 0 15px 35px;float: right;}
+#footerArea .footer_top .footer_menu li{float: right; padding-right:  20px;}
+#footerArea .footer_top .footer_menu a{color: #ccc;}
+
+#footerArea .footer_bottom{height: 207px; position: relative;}
+#footerArea .footer_bottom .footer_logo{float: left; margin: 75px 0 65px 0px;}
+#footerArea .footer_bottom .add_copy{float: right; color: #ccc; margin-top:65px;}
+#footerArea .footer_bottom .add_copy address{margin-bottom:45px; color: #ccc;font-weight: 400;}
+#footerArea .footer_bottom .add_copy p{color: #ccc;font-weight: 400;}
+#footerArea .footer_bottom .sns{height: 111px;}
+#footerArea .footer_bottom .sns ul{font-size: 2em;position: absolute;top: -20px;right:0;}
+#footerArea .footer_bottom .sns li{float:left;padding: 60px 0 10px 20px;}
+#footerArea .footer_bottom .sns a{color: #ccc;}
+
+
+/*상단 이동 버튼*/
+
+#footerArea .topMove{display:block; width: 50px;
+  height: 50px; border-radius: 25px;
+position: fixed; left:50%; margin-left: 610px;color:rgba(21, 66, 151, .8); 
+  bottom:300px; z-index: 50;font-size: 50px;}
+  #footerArea .topMove:hover{color: rgba(69, 190, 250, .8);}
+
+
+
+

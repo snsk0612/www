@@ -1,0 +1,35 @@
+/*투자정보 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .content_area{width: 1200px; margin: 0 auto;}
+
+#content .content_area .table_sales{margin-bottom: 150px;overflow: hidden;}
+#content .content_area .table_sales h4{font-size: 2.333em;text-align:center;margin:150px 0 80px 0px ; font-weight: 500; 
+position: relative;padding-bottom: 50px;}
+#content .content_area .table_sales h4::after{content: ''; width: 5px;height: 30px;background: #154297; position: absolute;
+left: 380px; top: 10px;}
+#content .content_area .table_sales strong{display: block; font-size:20px;text-align: center; font-weight: 500;
+margin-bottom: 100px;}
+#content .content_area .table_sales p{font-size: 18px; font-family: 'NanumGothic';float: right; margin: 10px;
+font-weight: 500;}
+#content .content_area .table_sales h5{font-size: 30px; font-family: 'NanumGothic'; font-weight: 500;
+margin-bottom:20px;}
+
+#content .content_area .sales_table1{width: 1200px;font-size: 20px;border-top: 5px solid #154297;
+margin-bottom: 100px;}
+#content .content_area .sales_table1 thead{border-bottom: 1px solid #ccc;background: #f9f9f9;}
+#content .content_area .sales_table1 th{border-bottom: 1px solid#ccc;border-right: 1px solid #ccc;
+font-weight: 500;border-left: 1px solid #ccc;padding: 50px}
+#content .content_area .sales_table1 td{border-right: 1px solid#ccc;padding: 30px 0;border-bottom: 1px solid#ccc;
+text-align: center;}
+
+#content .content_area .sales_table2{width: 1200px;font-size: 20px;border-top: 5px solid #154297;overflow: hidden;}
+#content .content_area .sales_table2 h5{font-size: 30px; font-family: 'NanumGothic'; font-weight: 500;
+margin-bottom:20px;}
+#content .content_area .sales_table2 p{font-size: 18px; font-family: 'NanumGothic';float: right; margin: 10px;
+font-weight: 500;}
+#content .content_area .sales_table2 thead{border-bottom: 1px solid #ccc;background: #f9f9f9;}
+#content .content_area .sales_table2 th{border-bottom: 1px solid#ccc;border-right: 1px solid #ccc;
+font-weight: 500;border-left: 1px solid #ccc;padding: 50px}
+#content .content_area .sales_table2 td{border-right: 1px solid#ccc;padding: 30px 0;border-bottom: 1px solid#ccc;
+text-align: center;}

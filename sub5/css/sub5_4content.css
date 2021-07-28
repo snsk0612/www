@@ -1,0 +1,39 @@
+/*인재채용 내용 영역*/
+
+#content .title_area{position: relative;border-bottom: 1px solid #ccc;background: #f9f9f9;margin-bottom: 10px;}
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h4{font-size: 2.222em;text-align:left;margin:100px 0 0 50px ; font-weight: 500; 
+padding-bottom:50px;position: relative;}
+#content .content_area h4::after{content: ''; width: 5px;height: 30px;background: #154297; position: absolute;
+left: -15px; top: 10px;}
+#content .content_area .slogan{font-size: 20px;line-height: 1.5em;font-family: 'NanumGothic';margin:0 0 50px 50px;}
+
+#content .content_area .benefit{overflow: hidden;}
+#content .content_area .benefit_box1{margin-left:50PX; margin-bottom: 50px;}
+#content .content_area .benefit_box1 li{float: left; margin-right: 50px;margin-bottom:30px;
+border-bottom: 1px solid #ccc;padding-bottom: 30px;}
+#content .content_area .benefit_box1 .effect{font-family: 'NanumGothic'; font-weight:700; position: relative; overflow: hidden; margin: 10px; 
+min-width: 420px; max-width: 500px; max-height: 300px; width: 100%; background: #000000;
+color: #ffffff;text-align: center; box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);}
+#content .content_area .benefit_box1 .effect * {-webkit-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.45s ease-in-out;
+transition: all 0.45s ease-in-out;}
+#content .content_area .benefit_box1 .effect img {max-width: 100%; position: relative; opacity: 0.9;}
+#content .content_area .benefit_box1 .effect figcaption {position: absolute; top: 30%; left: 7%; right: 7%; bottom: 45%; 
+border: 1px solid white; border-width: 1px 1px 0;}
+#content .content_area .benefit_box1 .effect .heading {overflow: hidden; -webkit-transform: translateY(50%); transform: translateY(50%); 
+position: absolute; bottom: 0; width: 100%;}
+#content .content_area .benefit_box1 .effect h5{display: table; margin: 0 auto; padding: 0 10px; position: relative; text-align: center;
+width: auto; text-transform: uppercase; font-weight: 400; font-size: 25px;}
+#content .content_area .benefit_box1 .effect h5:before, .benefit_box1 .effect h5:after{position: absolute; display: block; width: 1000%; 
+height: 1px; content: ''; background: white; top: 50%;}
+#content .content_area .benefit_box1 .effect h5:before{left: -1000%;}
+#content .content_area .benefit_box1 .effect h5:after{right: -1000%;}
+#content .content_area .benefit_box1 .effect p{top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); 
+position: absolute; width: 100%; padding: 0 20px; margin-bottom: 10px; opacity: 0; line-height: 2em; font-size: 1em;}
+#content .content_area .benefit_box1 .effect a{left: 0; right: 0; top: 0; bottom: 0; position: absolute; z-index: 1;}
+#content .content_area .benefit_box1 .effect:hover img{opacity: 0.25; -webkit-transform: scale(1.1); transform: scale(1.1);}
+#content .content_area .benefit_box1 .effect:hover figcaption{top: 7%; bottom: 7%;}
+#content .content_area .benefit_box1 .effect:hover p{opacity: 1; -webkit-transition-delay: 0.35s; transition-delay: 0.35s; }
+#content .content_area .benefit_box1 li:nth-of-type(1){margin-top: 30px;border-top: 1px solid #ccc;padding-top: 30px;}
+#content .content_area .benefit_box1 li:nth-of-type(2){margin-top: 30px;border-top: 1px solid #ccc;padding-top: 30px;}
+#content .content_area .benefit_box1 li:nth-of-type(6){margin-bottom: 100px;}

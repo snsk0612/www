@@ -1,0 +1,65 @@
+.sub_menu{margin-top: 50px; position: relative;}
+.visual_area_box{height: 170px; overflow: hidden; background: url(../images/visual_sub3.png) center no-repeat; 
+background-size: cover;}
+.sub_menu h3{position: absolute; top: 50px; width: 100%; text-align: center; color: #fff; font-size: 22px;
+font-weight: 700;}
+
+.sub_box{overflow: hidden; width: 100%; position: absolute; bottom: 0; background: rgba(21, 66,151, .3);}
+.sub_box li{float: left; width: 33.333%;}
+.sub_box li a{display: block; padding: 10px 0; font-size: 18px;font-family:'NanumGothic';color: #fff;
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;} 
+
+#content h2{margin:50px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+
+#content .slogan{font-size:20px;font-family: 'NanumGothic';font-weight: 400;margin: 50px 5% ;text-align: center;
+line-height: 1.5em;}
+#content .red{color: #cf2920;}
+#content .blue{color: #154297;}
+
+#content  dl{margin-bottom: 50px;}
+#content .text_1{font-size:24px;font-weight: bold;text-align: center;padding: 70px 0 30px;color: #45befa;
+background: url(../images/high-five.png)no-repeat top center;}
+#content .text_2{font-size: 18px; line-height: 2em; text-align: center;margin: 0 10%;padding-bottom: 30px;}
+#content .text_2{line-height: 1.5em; text-align: justify;}
+
+#content .circle{overflow: hidden;margin-bottom: 50px;}
+#content .circle li{float: left; margin:50px 220px;position: relative;}
+#content .circle li img{display: block;margin: 20px auto;width: 90px;}
+#content .circle li p{font-size: 24px;color: #fff;text-align: center;font-weight: 600;}
+
+#content .circle li:nth-of-type(1){width: 200px; height: 200px; border-radius: 100px;background: #8a5bf5;}
+#content .circle li:nth-of-type(2){width: 200px; height: 200px; border-radius: 100px;background: #46ae72;}
+#content .circle li:nth-of-type(3){width: 200px; height: 200px; border-radius: 100px;background: #cac956;}
+#content .circle li:nth-of-type(4){width: 200px; height: 200px; border-radius: 100px;background: #c25b55;}
+#content .circle li:nth-of-type(1):after{content: ''; width: 220px;height: 220px;border: 2px dotted #8a5bf5;
+border-radius: 110px;position: absolute;top: -6%;left: -6%;}
+#content .circle li:nth-of-type(2):after{content: ''; width: 220px;height: 220px;border: 2px dotted #46ae72;
+border-radius: 110px;position: absolute;top: -6%;left: -6%;}
+#content .circle li:nth-of-type(3):after{content: ''; width: 220px;height: 220px;border: 2px dotted #cac956;
+border-radius: 110px;position: absolute;top: -6%;left: -6%;}
+#content .circle li:nth-of-type(4):after{content: '';width: 220px;height: 220px;border: 2px dotted #c25b55;
+border-radius: 110px;position: absolute;top: -6%;left: -6%;}
+
+#content .in{font-family: 'montserrat';font-size: 24px;font-weight: 800;text-align: center;margin-bottom: 50px;}
+#content .text_inner{overflow: hidden;}
+#content .text_inner li{margin:10px 1%;float: left;}
+
+#content .text_inner li:nth-of-type(1)::before{content: '';display: block;width: 128px;height: 128px;
+background: url(../images/think.png)no-repeat center top ;margin: 0 auto;}
+#content .text_inner li:nth-of-type(2)::before{content: '';display: block;width: 128px;height: 128px;
+background: url(../images/hands-up.png)no-repeat center top;margin: 0 auto;}
+#content .text_inner li:nth-of-type(3)::before{content: '';display: block;width: 128px;height: 128px;
+background: url(../images/leadership.png)no-repeat center top;margin: 0 auto;}
+
+#content .text_inner dt{text-align: center; line-height: 1.5em; font-size: 20px;font-weight: 500;
+font-family: 'NanumGothic';margin-bottom: 20px; padding-top:20px; }
+#content .text_inner dd{line-height: 1.5em;font-family:'NanumGothic';text-align: center; font-size: 18px;
+margin: 0 10%;}
+
+#content .text_inner .purple span{color: #8a5bf5;font-weight: 500;}
+#content .text_inner .green span{color: #46ae72;font-weight: 500;}
+#content .text_inner .pink span{color: #c25b55;font-weight: 500;}

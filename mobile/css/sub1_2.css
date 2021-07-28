@@ -1,0 +1,31 @@
+.sub_menu{margin-top: 50px; position: relative;}
+.visual_area_box{height: 170px; overflow: hidden; background: url(../images/visual_sub1.png) center no-repeat; 
+background-size: cover;}
+.sub_menu h3{position: absolute; top: 50px; width: 100%; text-align: center; color: #fff; font-size: 22px;font-weight: 700;}
+
+.sub_box{overflow: hidden; width: 100%; position: absolute; bottom: 0; background: rgba(21, 66,151, .3);}
+.sub_box li{float: left; width: 50%;} 
+.sub_box li a{display: block; padding: 10px 0; font-size: 18px;font-family:'NanumGothic';color: #fff;
+background: rgba(21, 66,151, .3);text-align:center;font-weight: 400;}
+.sub_menu .current a{background:#fff;color: #154297;font-family: 'NanumGothic';font-weight:600;}
+
+#content .ceo_message h2{margin:50px 0;text-align: center;font-weight: bold;font-size: 28px;
+font-family: 'Nanum Gothic', sans-serif;position: relative;}
+#content .ceo_message h2::after {content: '';background: #45befa;height: 4px;width: 40px;
+position: absolute;top: 50px;left: 50%;margin-left: -20px;}
+
+#content .ceo_message .title_box{position: relative;}
+#content .ceo_message .title{display: block;text-align:justify ;line-height: 2em;
+position: absolute;top: 0;left:37%;font-size:16px; font-family: 'NanumGothic';padding: 20px ;}
+#content .ceo_message .title .red{color: #cf2920; font-family: 'montserrat';}
+#content .ceo_message .title .blue{color: #154297;font-family: 'montserrat';}
+#content .ceo_message img{width: 100%; display: block;margin-bottom: 20px;}
+#content .ceo_message .name{font-size:16px;text-align: right;margin:10px 20px 30px ;}
+#content .ceo_message .middle{font-size:18px;font-family: 'NanumGothic';line-height: 2em;margin: 20px;
+text-align:justify; }
+
+#content .ceo_message dl{margin: 40px 5%;border:1px solid #45befa;}
+#content .ceo_message dt{font-size:20px; margin-top: 50px; font-weight:bold;font-family: 'montserrat';
+text-align: center;color: #154297;}
+#content .ceo_message dd{font-size:16px;margin: 30px 20px 50px 20px;line-height: 2em; font-family: 'monserrat';
+text-align:justify;}
